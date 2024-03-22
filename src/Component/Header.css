@@ -1,0 +1,39 @@
+#div {
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#image{
+    width: 70px; 
+    height: 70px;
+}
+ul{
+    list-style-type:  none;
+    display: flex;
+   
+    padding-right: 5px;
+}
+ul>li{
+    padding-top: 16px;
+    padding-right: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+ul>img{
+    padding-right: 5px;
+}
+.link{
+    text-decoration: none;
+    color: rgb(17, 16, 16);
+    font-size: 20px;
+}
+.link:hover{
+    color:blueviolet
+}
+button{
+    align-self: center;
+}
